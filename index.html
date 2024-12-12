@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact form</title>
     <link rel="stylesheet" href="/styles/css/style.css">
 </head>
 <body>
@@ -32,5 +32,89 @@
         </div>
       </div>  
     </header>
+    <main class="main-content">
+        <div class="main-title">
+            <h1>Contact Us</h1>
+            <p>Any question or remarks? Just write us a message!</p>
+        </div>
+        <div class="contact-info-form">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Say something to start a live chat!</p>
+                <a href="tel:+380979715860" class="contact-info-group">
+                    <img src="/assets/icons/phone.svg" alt="phone icon">
+                    <p>+38 (097) 971-58-60</p>
+                </a>
+                <a href="mailto:julia.bogolub@gmail.com" class="contact-info-group">
+                    <img src="/assets/icons/mail.svg" alt="mail icon">
+                    <p>julia.bogolub@gmail.com</p>
+                </a>
+                <a href="https://maps.app.goo.gl/p5JrVvzfyXd615Wn8" class="contact-info-group" target="_blank">
+                    <img src="/assets/icons/location.svg" alt="location icon">
+                    <p>Nemyrivske highway, 94E, Vinnytsia, Vinnytsia region, 21006</p>
+                </a>
+                <div class="contact-socia">
+                    <a href="https://twitter.com/?lang=uk">
+                        <img src="/assets/icons/twitter.svg" alt="twitter">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="/assets/icons/insta.svg" alt="instagram icon">
+                    </a>
+                    <a href="https://www.twitch.tv/">
+                        <img src="/assets/icons/twitch.svg" alt="twitch icon">
+                    </a>
+                </div>
+                <img src="/assets/icons/Ellipse big.svg" alt="ellipse">
+                <img src="/assets/icons/Ellipse small.png" alt="ellipse" class="ellipse-small">
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="general-data">
+                        <div class="section-first-name row">
+                            <label for="first-name" class="first-name">First Name</label>
+                            <input type="text"  placeholder="I" class="first-name" name="first-name" id="first-name">
+                        </div>
+                        <div class="section-last-name row">
+                            <label for="last-name" class="last-name">Last Name</label>
+                            <input type="text" class="last-name" placeholder="Julia" name="last-name" id="last-name" required>
+                        </div>
+                        <div class="section-email row">
+                            <label for="email" class="email">Email</label>
+                            <input type="email" class="email" name="email" id="email" required>
+                        </div>
+                        <div class="section-phone-number">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="phone" placeholder="+1 012 3456 789" name="phone-number" id="phone-number" required>
+                        </div>
+                    </div>
+                    <fieldset>
+                        <legend>Select Subject?</legend>
+                        <label for="select">
+                            <input type="radio" name="select" value="General Inquiry">
+                            General Inquiry
+                        </label>
+                        <label for="select">
+                            <input type="radio" name="select" value="General Inquiry">
+                            General Inquiry
+                        </label>
+                        <label for="select">
+                            <input type="radio" name="select" value="General Inquiry">
+                            General Inquiry
+                        </label>
+                        <label for="select">
+                            <input type="radio" name="select" value="General Inquiry">
+                            General Inquiry
+                        </label>
+                    </fieldset>
+                    <div class="message">
+                        <p>Message</p>
+                        <textarea placeholder="White your message.." maxlength="300" ></textarea>
+                        <button type="submit">Send Message</button>
+                    </div>
+                    <img src="/assets/icons/letter_send 1.png" alt="letter">
+                </form>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
