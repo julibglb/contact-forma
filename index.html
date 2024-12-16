@@ -70,45 +70,47 @@
             <div class="contact-form">
                 <form>
                     <div class="general-data">
-                        <div class="section-first-name row">
+                        <div class="row">
                             <label for="first-name" class="first-name">First Name</label>
                             <input type="text"  placeholder="I" class="first-name" name="first-name" id="first-name">
                         </div>
-                        <div class="section-last-name row">
+                        <div class="row">
                             <label for="last-name" class="last-name">Last Name</label>
                             <input type="text" class="last-name" placeholder="Julia" name="last-name" id="last-name" required>
                         </div>
-                        <div class="section-email row">
+                        <div class="row">
                             <label for="email" class="email">Email</label>
                             <input type="email" class="email" name="email" id="email" required>
                         </div>
-                        <div class="section-phone-number">
+                        <div class="row">
                             <label for="phone-number">Phone Number</label>
                             <input type="phone" placeholder="+1 012 3456 789" name="phone-number" id="phone-number" required>
                         </div>
                     </div>
                     <fieldset>
                         <legend>Select Subject?</legend>
-                        <label for="select">
-                            <input type="radio" name="select" value="General Inquiry">
-                            General Inquiry
-                        </label>
-                        <label for="select">
-                            <input type="radio" name="select" value="General Inquiry">
-                            General Inquiry
-                        </label>
-                        <label for="select">
-                            <input type="radio" name="select" value="General Inquiry">
-                            General Inquiry
-                        </label>
-                        <label for="select">
-                            <input type="radio" name="select" value="General Inquiry">
-                            General Inquiry
-                        </label>
+                        <div class="select-subject">
+                            <div class="select">
+                                <input type="radio" name="select" id="GI1" value="General Inquiry">
+                                <label for="GI1">General Inquiry</label>
+                            </div>
+                            <div class="select">
+                                <input type="radio" name="select" id="GI2" value="General Inquiry">
+                                <label for="GI2">General Inquiry</label>
+                            </div>
+                            <div class="select">
+                                <input type="radio" name="select" id="GI3" value="General Inquiry">
+                                <label for="GI3">General Inquiry</label>
+                            </div>
+                            <div class="select">
+                                <input type="radio" name="select" id="GI4" value="General Inquiry">
+                                <label for="GI4">General Inquiry</label>
+                            </div>
+                        </div>
                     </fieldset>
                     <div class="message">
                         <p>Message</p>
-                        <textarea placeholder="White your message.." maxlength="300" ></textarea>
+                        <textarea placeholder="White your message.." ></textarea>
                         <button type="submit">Send Message</button>
                     </div>
                     <img src="/assets/icons/letter_send 1.png" alt="letter">
