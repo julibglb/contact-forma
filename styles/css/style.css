@@ -998,6 +998,7 @@ footer {
 @media (min-width: 1025px) {
   .footer-reach {
     max-width: 295px;
+    margin-right: 35px;
   }
 }
 .footer-reach h3 {
@@ -1006,6 +1007,12 @@ footer {
   color: #fff;
   margin-bottom: 15px;
   line-height: 1.63;
+}
+@media (min-width: 1025px) {
+  .footer-reach h3 {
+    font-size: 18px;
+    line-height: 1.44;
+  }
 }
 
 .footer-contact {
@@ -1022,10 +1029,17 @@ footer {
 @media (min-width: 1025px) {
   .footer-contact {
     flex-direction: row;
+    font-size: 16px;
+    gap: 27px;
   }
 }
 .footer-contact:not(:last-child) {
   margin-bottom: 18px;
+}
+@media (min-width: 1025px) {
+  .footer-contact:not(:last-child) {
+    margin-bottom: 24px;
+  }
 }
 
 .footer-name-column {
@@ -1034,12 +1048,24 @@ footer {
   color: #fff;
   margin-bottom: 20px;
 }
+@media (min-width: 1025px) {
+  .footer-name-column {
+    font-size: 18px;
+    margin-bottom: 28px;
+  }
+}
 
 .footer-column {
+  width: 42%;
   display: flex;
   flex-direction: column;
   font-size: 12px;
   font-weight: normal;
+}
+@media (min-width: 1025px) {
+  .footer-column {
+    font-size: 16px;
+  }
 }
 .footer-column a {
   color: #fff;
@@ -1047,6 +1073,11 @@ footer {
 }
 .footer-column a:not(:last-child) {
   margin-bottom: 25px;
+}
+@media (min-width: 1025px) {
+  .footer-column a:not(:last-child) {
+    margin-bottom: 38px;
+  }
 }
 
 .footer-legal-links {
@@ -1065,6 +1096,8 @@ footer {
 .footer-newsletter {
   margin: 0 auto;
   width: 320px;
+  height: 184px;
+  border-radius: 10px;
   margin-top: 40px;
   padding: 17px 29px 14px 14px;
   background-color: #0d0d0d;
@@ -1082,6 +1115,11 @@ footer {
   line-height: 1.63;
   display: block;
   margin-bottom: 25px;
+}
+@media (min-width: 1025px) {
+  .footer-newsletter label {
+    font-size: 18px;
+  }
 }
 .footer-newsletter span {
   max-width: 277px;
